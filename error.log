@@ -1,0 +1,21 @@
+
+========== ERROR ==========
+Traceback (most recent call last):
+  File "E:\Q_luwan\main.py", line 1618, in <module>
+    main()
+  File "E:\Q_luwan\main.py", line 1561, in main
+    draw_input_box(
+  File "E:\Q_luwan\main.py", line 1224, in draw_input_box
+    ime_x = clamp(cursor_x, rect.x + padding, rect.right - padding)
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'cursor_x' where it is not associated with a value
+
+
+========== ERROR ==========
+第 1 次 API 请求失败: RuntimeError('DeepSeek API Key 未配置')
+
+========== ERROR ==========
+第 2 次 API 请求失败: RuntimeError('DeepSeek API Key 未配置')
+
+========== ERROR ==========
+第 3 次 API 请求失败: RuntimeError('DeepSeek API Key 未配置')
